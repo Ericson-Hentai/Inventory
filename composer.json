@@ -1,0 +1,15 @@
+{
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "cartalyst/cart": "^4.0"
+        
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.cartalyst.com"
+        }
+    ]
+
+}
