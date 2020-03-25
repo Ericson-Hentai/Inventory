@@ -31,8 +31,23 @@ $Projectname2 = $Projectname2[3];
 // path for app/
 define("direction", "".$REQUEST_PROTOCOL."".$_SERVER['HTTP_HOST']."/".$Projectname2."");
 
+
+
+
+
+
+
 // path for library
 define("asset", "".$REQUEST_PROTOCOL."".$_SERVER['HTTP_HOST']."/".$Projectname2."/public/resources");
+
+
+
+
+
+
+
+
+
 
 // path for includes e.g. header and footer
 define("util", realpath(dirname(__DIR__) . '/app/Controller/utils.php'));
